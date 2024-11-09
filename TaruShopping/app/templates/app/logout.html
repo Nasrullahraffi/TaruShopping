@@ -1,0 +1,12 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Log Out{% endblock title %}
+{% block main-content %}
+
+    {% if user.is_authenticated  %}
+        <form action="", method='post'>
+            <input type="submit" name="Logout" id="">
+        </form>
+
+
+{% endblock main-content %}
